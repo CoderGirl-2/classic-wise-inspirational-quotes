@@ -1,2 +1,2 @@
-# Wisdom-and-Rhetoric
+# Wise-and-Eloquent-Quotes
 It's daily
