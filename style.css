@@ -1,1 +1,84 @@
 
+        body {
+           background-color: #c19f5c;
+        }
+        
+
+       .basic-box1 {
+            width: 50%;
+            height: 100%;
+            border: 2px solid #000;
+            background-color: #dcdcdc;
+            padding: 10px;
+            margin-left: 25%;
+			      margin-right: 25%;             
+            color: black;
+        }                                               
+
+     
+
+        .main-container {
+            max-width: 65%;
+          	margin: auto;
+            padding: 2%;
+        }
+
+        h1, h2, h3, h4 {
+            text-align: center;
+          	font-family:"Georgia";
+        }
+
+        .float-left {
+            float: left;
+            margin-right: 1%;
+        }
+
+        .float-right {
+            float: right;
+            margin-left: 1%;
+        }
+        .double-spaced {
+            line-height: 2;
+        }
+
+      
+button {
+    background-color:#6A4E20; 
+	  color:#000000;
+    width: 40%; /* Set the width */
+    height: 100px;
+    font-family: 'Georgia';
+  	margin-left:26%;
+    margin-right:26%;
+    margin-bottom:2%;
+
+         }
+ 
+
+.collapsible {
+  background-color: #dcdcdc;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+   width: 60%;
+   margin-left: 20%;
+	 margin-right: 20%;
+  
+}
+
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #dcdcdc;
+   width: 60%;
+   margin-left: 20%;
+	 margin-right: 20%;
+   margin-bottom: 2%;
+}                                                   
+                  
