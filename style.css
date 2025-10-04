@@ -16,26 +16,7 @@
             color: black;
         }                                               
 
-     .basic-box2 {
-            width: 16%;
-            border: 2px solid #000;
-            background-color: #dcdcdc;
-            padding: 10px;
-		 	margin-top: 28%;
-            margin-left: 1%;
-			margin-right: 77%;             
-            color: black;
-        }  
-     .basic-box3 {
-            width: 16%;
-            border: 2px solid #000;
-            background-color: #dcdcdc;
-            padding: 10px;
-		 	margin-top: -10%;
-            margin-left: 77%;
-			margin-right: 1%;             
-            color: black;
-        }  
+
 
         .main-container {
             max-width: 65%;
