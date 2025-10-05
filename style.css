@@ -15,7 +15,17 @@
             color: black;
         }                                               
 
+		.img1{
+			width: 22%;
+			height:50%;
+			float: left;
+		}
 
+		.img2{
+			width: 22%;
+			height:50%;
+			float: right;
+		}
 
         .main-container {
             max-width: 65%;
