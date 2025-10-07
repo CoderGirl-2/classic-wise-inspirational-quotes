@@ -89,7 +89,6 @@ button {
 /* 1. Container Settings (keeps everything together) */
 .image-container {
   width: 20%; /* Adjust this to the width you want for your image */
-  border: 1px solid #ccc; /* Optional light border around the whole unit */
 }
 
 /* 2. Image Settings */
@@ -101,7 +100,7 @@ button {
 
 /* 3. Text Box Settings */
 .text-box {
-  background-color: #f0f0f0; /* A light background color for the box */
+  background-color: #dcdcdc; /* A light background color for the box */
   padding: 15px; /* Adds space around the text inside the box */
 }
 
