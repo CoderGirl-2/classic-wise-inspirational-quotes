@@ -1,4 +1,3 @@
-
         body {
            background-color: #c19f5c;
         }
@@ -13,19 +12,23 @@
             margin-left:   25%;
             margin-right:   25%; 
             color: black;
+         margin-top: -35%; 
         }                                               
 
 
         .main-container {
-            max-width: 65%;
+            max-width: 50%;
           	margin: auto;
             padding: 2%;
+         
+    
         }
 
         h1, h2, h3, h4 {
             text-align: center;
           	font-family:"Georgia";
         }
+
 
         .float-left {
             float: left;
@@ -40,7 +43,9 @@
             line-height: 2;
         }
 
-      
+
+
+
 button {
     background-color:#6A4E20; 
 	  color:#000000;
@@ -63,9 +68,9 @@ button {
   text-align: left;
   outline: none;
   font-size: 15px;
-   width: 60%;
-   margin-left: 20%;
-	 margin-right: 20%;
+   width: 56%;
+   margin-left: 22%;
+	 margin-right: 22%;
   
 }
 
@@ -79,4 +84,34 @@ button {
    margin-left: 20%;
 	 margin-right: 20%;
    margin-bottom: 2%;
-}           
+}         
+
+/* 1. Container Settings (keeps everything together) */
+.image-container {
+  width: 20%; /* Adjust this to the width you want for your image */
+  border: 1px solid #ccc; /* Optional light border around the whole unit */
+}
+
+/* 2. Image Settings */
+.image-container img {
+  width: 100%; /* Makes the image perfectly fit the 300px container */
+  height: 80%; /* Keeps the photo from looking stretched */
+  display: block; /* Important for removing unwanted space below the image */
+}
+
+/* 3. Text Box Settings */
+.text-box {
+  background-color: #f0f0f0; /* A light background color for the box */
+  padding: 15px; /* Adds space around the text inside the box */
+}
+
+.text-box h4 {
+  margin-top: 0; /* Removes the default space above the title */
+}
+
+
+/* 1. Flex Container (The only part that makes them side-by-side) */
+.gallery {
+  display: flex; /* Arranges children horizontally */
+  gap: 60%;     /* Space between the images */
+  margin: 0%; /* Centers the whole gallery *
