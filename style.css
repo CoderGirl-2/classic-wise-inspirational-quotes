@@ -87,7 +87,7 @@ button {
 
 /* 1. Container Settings (keeps everything together) */
 .image-container {
-  width: 25%; /* Adjust this to the width you want for your image */
+  width: 30%; /* Adjust this to the width you want for your image */
   height:25%;
 }
 
