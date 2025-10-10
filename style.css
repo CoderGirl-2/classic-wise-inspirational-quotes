@@ -42,7 +42,15 @@
             line-height: 2;
         }
 
+  /* 1. Base style: Hide the image by default */
+        .desktop-only-image {
+            display: none;
+        }
 
+        /* 2. Media Query: Show the image only on larger screens (768px and up) */
+        @media only screen and (min-width: 768px) {
+            .desktop-only-image {
+                display: block; /* Makes the image visible on computers */
 
 
 button {
