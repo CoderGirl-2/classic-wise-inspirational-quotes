@@ -65,9 +65,10 @@ button {
     width: 70%; /* Set the width */
     height: 100%;
     font-family: 'Georgia';
-    margin-top:5%;
+    margin-top:3%;
     margin-left: 2%;
     margin-right:25%;
+	margin-bottom:3%;
 	border: 5px solid #6A4E20;
   
 }
@@ -78,9 +79,10 @@ button {
     width: 70%; /* Set the width */
     height: 100%;
     font-family: 'Georgia';
-    margin-top:5%;
+    margin-top:3%;
     margin-right: 2%;
     margin-left:25%;
+	margin-bottom:3%;
     border: 5px solid #6A4E20;
 }
 
