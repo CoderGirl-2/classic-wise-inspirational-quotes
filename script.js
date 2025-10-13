@@ -1,23 +1,4 @@
 
-import { Analytics } from '@vercel/analytics/react';
-
-export default function MyComponent() {
-  const beforeSend = (event) => {
-    // Check if a specific value is set in localStorage
-    if (localStorage.getItem('va-disable') === 'true') {
-      // Return null to ignore this event
-      return null;
-    }
-    return event;
-  };
-
-  return (
-    <>
-      {/* Your page content */}
-      <Analytics beforeSend={beforeSend} />
-    </>
-  );
-}
 
 
 function copyText() {
