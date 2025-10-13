@@ -13,7 +13,8 @@
             margin-right:   25%; 
             color: black;
          margin-top: -35%; 
-		   p.solid {border-style: solid;}
+		   p.solid {border-style: solid;
+				   border-color: #6A4E20;}
         }                                               
 
 
@@ -68,7 +69,7 @@ button {
     margin-top:5%;
     margin-left: 2%;
     margin-right:25%;
-	 p.solid {border-style: solid;}
+	 p.solid {border-style: solid; border-color: #6A4E20;}
   
 }
 
@@ -81,7 +82,7 @@ button {
     margin-top:5%;
     margin-right: 2%;
     margin-left:25%;
-    p.solid {border-style: solid;}
+    p.solid {border-style: solid; border-color: #6A4E20;}
 }
 
 
