@@ -55,7 +55,7 @@ button {
   	margin-left:26%;
     margin-right:26%;
     margin-bottom:2%;
-	p.outset {border-style: outset;}
+	border: 5px outset #6A4E20;
 
          }
 
@@ -68,7 +68,7 @@ button {
     margin-top:5%;
     margin-left: 2%;
     margin-right:25%;
-	 p.solid {border-style: solid; border-color: #6A4E20;}
+	border: 5px solid #6A4E20;
   
 }
 
@@ -81,7 +81,7 @@ button {
     margin-top:5%;
     margin-right: 2%;
     margin-left:25%;
-    p.solid {border-style: solid; border-color: #6A4E20;}
+    border: 5px solid #6A4E20;
 }
 
 
@@ -97,6 +97,7 @@ button {
    width: 56%;
    margin-left: 22%;
 	 margin-right: 22%;
+	border: 5px outset #6A4E20;
   
 }
 
