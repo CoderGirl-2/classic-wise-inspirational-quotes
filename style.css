@@ -144,3 +144,7 @@ button {
   display: flex; /* Arranges children horizontally */
   gap: 60%;     /* Space between the images */
   margin: 0%; /* Centers the whole gallery
+}
+.galleryowl{
+	display: flex; /* Arranges children horizontally */
+}
