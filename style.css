@@ -141,10 +141,10 @@ button {
 
 /* 1. Flex Container (The only part that makes them side-by-side) */
 .gallery {
-  display: flex; /* Arranges children horizontally */
-  gap: 60%;     /* Space between the images */
-  margin: 0%; /* Centers the whole gallery
+  display: flex;
+  gap: 60%;    
+  margin: 0%; 
 }
 .galleryowl{
-	display: flex; /* Arranges children horizontally */
+	display: flex; 
 }
