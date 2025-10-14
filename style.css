@@ -27,7 +27,6 @@
         h1, h2, h3, h4 {
             text-align: center;
           	font-family:"Georgia";
-			margin-right:10%;
         }
 
 
@@ -148,4 +147,5 @@ button {
 }
 .galleryowl{
 	display: flex; 
+	margin-right:10%;
 }
