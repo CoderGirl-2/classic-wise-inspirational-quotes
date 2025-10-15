@@ -146,5 +146,6 @@ button {
   margin: 0%; 
 }
 .galleryowl{
-	display: flex; 
+	display: flex;
+	margin-right: 10%;
 }
