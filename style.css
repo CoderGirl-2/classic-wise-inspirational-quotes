@@ -150,3 +150,10 @@ button {
 	margin-right: 10%;
 	margin-top: 2%;
 }
+
+.galleryowlleft{
+	display: flex;
+	margin-left: 10%;
+	margin-top: 2%;
+	transform: scaleX(-1);
+}
