@@ -159,4 +159,5 @@ button {
 .daily{
 	display: flex;
 	gap: 1%;
+	text-align: center;
 }
