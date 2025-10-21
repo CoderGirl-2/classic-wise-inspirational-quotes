@@ -156,3 +156,7 @@ button {
 	margin-left: 10%;
 	margin-top: 2%;
 }
+.daily{
+	display: flex;
+	gap: 1%;
+}
