@@ -1,1 +1,17 @@
+   body {
+           background-color: #c19f5c;
+        }
+        
 
+       .basic-box1 {
+            width: 60%;
+            height: 100%;
+            border: 2px solid #000;
+            background-color: #dcdcdc;
+            padding: 10px;
+            margin-left:   30%;
+            margin-right:   8%; 
+            color: black;
+         margin-top: 5%; 
+		   border: 10px solid #6A4E20;
+        }      
