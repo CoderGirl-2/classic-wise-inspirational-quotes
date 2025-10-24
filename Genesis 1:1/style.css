@@ -25,6 +25,6 @@
         }
 .gallery {
   display: flex;
-  gap: 60%;    
+  gap: 30%;    
   margin: 0%; 
 }
