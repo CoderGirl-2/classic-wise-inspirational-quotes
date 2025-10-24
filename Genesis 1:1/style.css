@@ -10,12 +10,13 @@
             color: black;
          margin-top: 5%; 
 		   border: 10px solid #6A4E20;
+			margin-left: 5%
         }      
      button {
             width: 15%;
             height: 15%;
             background-color: #6A4E20;
-            margin-top: 5%;
+            margin-left: 5%;
 		 ``margin-top: 5%
         	border: 10px solid #6A4E20;
         }
