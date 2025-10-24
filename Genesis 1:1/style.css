@@ -17,11 +17,11 @@
             height: 15%;
             background-color: #6A4E20;
             margin-left: 5%;
-		 ``margin-top: 5%
+		 ``margin-top: 10%
         	border: 10px solid #6A4E20;
         }
 .gallery {
   display: flex;
-  gap: 20%;    
+  gap: 10%;    
   margin: 0%; 
 }
