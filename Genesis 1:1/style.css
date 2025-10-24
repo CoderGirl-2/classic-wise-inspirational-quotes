@@ -5,7 +5,6 @@
 .quotebox	{
             width: 60%;
             height: 100%;
-            border: 2px solid #000;
             background-color: #dcdcdc;
             padding: 10px;
             color: black;
@@ -15,14 +14,10 @@
      button {
             width: 15%;
             height: 15%;
-            background-color: #3498db;
-            border: 2px solid #2980b9;
-            border-radius: 5px;
-            padding: 10px;
+            background-color: ##6A4E20;
             margin-top: 5%;
 		 ``margin-top: 5%
-            color: #ffffff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: #ffffff
         }
 .gallery {
   display: flex;
