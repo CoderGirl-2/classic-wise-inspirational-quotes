@@ -14,3 +14,14 @@
          margin-top: 5%; 
 		   border: 10px solid #6A4E20;
         }      
+     button {
+            width: 160px;
+            height: 60px;
+            background-color: #3498db;
+            border: 2px solid #2980b9;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
