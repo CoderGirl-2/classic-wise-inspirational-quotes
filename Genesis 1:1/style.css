@@ -21,12 +21,6 @@
         	border: 10px solid #6A4E20;
         }
 .gallery {
-  display: flex;   
-  margin: 0%; 
+  display: flex;    
 }
 
-return {
-width: 15%;
-height: 15%;
-background-color: #dcdcdc;
-}
