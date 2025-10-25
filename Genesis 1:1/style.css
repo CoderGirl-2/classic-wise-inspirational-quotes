@@ -30,3 +30,8 @@ button {
 	border: 5px outset #6A4E20;
 
          }
+
+.image-text-container {
+  display: flex;
+  flex-direction: column;
+}
