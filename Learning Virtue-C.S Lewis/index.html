@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> | Daily Wisdom and Inspiration from Classic Books</title>
+	<script>
+		function copyText() {
+  const textToCopy = document.getElementById("myText").innerText;
+  navigator.clipboard.writeText(textToCopy)
+}
+	</script>
+	<style>
+		   body {
+           background-color: #c19f5c;
+        }
+
+.quotebox	{
+            width: 60%;
+            height: 100%;
+            background-color: #dcdcdc;
+            padding: 10px;
+            color: black;
+         margin-top: 5%; 
+		   border: 10px solid #6A4E20;
+			margin-left: 5%
+        }      
+    
+.gallery {
+  display: flex;    
+}
+
+
+button {
+    background-color:#6A4E20; 
+	  color:#000000;
+    width: 40%; /* Set the width */
+    height: 100px;
+    font-family: 'Georgia';
+  	margin-left:26%;
+    margin-right:26%;
+    margin-bottom:2%;
+	border: 5px outset #6A4E20;
+
+         }
+
+.image-text-container {
+  display: flex;
+  flex-direction: column;
+	border: 5px outset #6A4E20;
+}
+	</style>
+
+</head>
+<body>
+	<div class="gallery">
+	<div class="image-text-container">
+		<a href="https://classic-wisdom-and-inspiration-quotes.vercel.app/home">
+  <img src="Genesis 1:1/Owl logo.png" alt="Button Image" width="60%" height="90%">
+</a>
+		<h3>Click this Owl (her name is Athena) to see the Quote of the Day</h3>
+	</div>		
+<div class="quotebox"> 
+  	  <div class="content-to-copy">
+  <h3 id="myText">"" </h3></div>
+	  <h3>Book: </h3>
+      <h3>Author: </h3>
+      <h3>Theme(s): </h3>
+      <button onclick="copyText()"><font size="5">Copy the Quote</font></button>
+</div>
+</div>
+</body>
+</html>
