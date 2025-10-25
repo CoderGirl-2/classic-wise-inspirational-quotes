@@ -12,15 +12,7 @@
 		   border: 10px solid #6A4E20;
 			margin-left: 5%
         }      
-     button {
-            background-image: url("Owl logo.png");
-		 background-size: cover;
-		 width: 65%;
-            height: 95%;
-            margin-left: 2%;
-		 ``margin-top: 10%
-        	border: 10px solid #6A4E20;
-        }
+    
 .gallery {
   display: flex;    
 }
