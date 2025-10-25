@@ -34,4 +34,5 @@ button {
 .image-text-container {
   display: flex;
   flex-direction: column;
+	border: 5px outset #6A4E20;
 }
