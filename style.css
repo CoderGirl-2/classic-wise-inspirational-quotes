@@ -113,36 +113,6 @@ button {
    margin-bottom: 2%;
 }         
 
-/* 1. Container Settings (keeps everything together) */
-.image-container {
-  width: 30%; /* Adjust this to the width you want for your image */
-  height:25%;
-}
-
-/* 2. Image Settings */
-.image-container img {
-  width: 100%; /* Makes the image perfectly fit the 300px container */
-  height: 60%; /* Keeps the photo from looking stretched */
-  display: block; /* Important for removing unwanted space below the image */
-}
-
-/* 3. Text Box Settings */
-.text-box {
-  background-color: #dcdcdc; /* A light background color for the box */
-  padding: 15px; /* Adds space around the text inside the box */
-}
-
-.text-box h4 {
-  margin-top: 0; /* Removes the default space above the title */
-}
-
-
-/* 1. Flex Container (The only part that makes them side-by-side) */
-.galleryhome {
-  display: flex;
-  gap: 60%;    
-  margin: 0%; 
-}
 .galleryowlright{
 	display: flex;
 	margin-right: 5%;
@@ -155,9 +125,7 @@ button {
 	margin-top: 2%;
 }
 
-   body {
-           background-color: #c19f5c;
-        }
+
 
 .quotebox	{
             width: 60%;
@@ -170,9 +138,6 @@ button {
 			margin-left: 5%
         }      
     
-.gallery {
-  display: flex;    
-}
 
 
 button {
