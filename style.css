@@ -138,7 +138,7 @@ button {
 
 
 /* 1. Flex Container (The only part that makes them side-by-side) */
-.gallery {
+.galleryhome {
   display: flex;
   gap: 60%;    
   margin: 0%; 
