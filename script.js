@@ -18,7 +18,7 @@ for (i = 0; i < coll.length; i++) {
       contenthome.style.display = "block";
     }
   });
-
+}
 
 var coll = document.getElementsByClassName("collapsible");
 var i;
