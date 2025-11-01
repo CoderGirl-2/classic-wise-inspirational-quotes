@@ -86,34 +86,6 @@ button {
 }
 
 
-.collapsiblehome {
-  background-color: #dcdcdc;
-  color: #444;
-  cursor: pointer;
-  padding: 10px;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-   width: 56%;
-   margin-left: 22%;
-	 margin-right: 22%;
-	border: 5px outset #6A4E20;
-  
-}
-
-
-.contenthome {
-  padding: 10 px;
-  display: none;
-  overflow: hidden;
-  background-color: #dcdcdc;
-   width: 60%;
-   margin-left: 20%;
-	 margin-right: 20%;
-   margin-bottom: 2%;
-}   
-
 
 .collapsible {
   background-color: #dcdcdc;
@@ -125,7 +97,7 @@ button {
   outline: none;
   font-size: 15px;
    width: 60%;
-   margin-left: 40%;
+   margin-left: 4%;
 	 margin-right: 5%;
 	border: 5px outset #6A4E20;
   
