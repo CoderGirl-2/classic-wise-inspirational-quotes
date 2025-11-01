@@ -230,3 +230,8 @@ button {
 	display: flex;
 	gap: 1%;
 }
+
+.directoryandcollapsible {
+	display: flex;
+	gap: 1%;
+}
