@@ -127,7 +127,7 @@ button {
    margin-left: 40%;
 	 margin-right: 5%;
 	border: 5px outset #6A4E20;
-	display: flex;
+	display: inline-block;
   
 }
 
