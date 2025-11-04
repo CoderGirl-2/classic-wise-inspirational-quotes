@@ -29,6 +29,32 @@
           	font-family:"Georgia";
         }
 
+.collapsible {
+  background-color: #dcdcdc;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+   width: 80%;
+   margin-left: 4%;
+	border: 5px outset #6A4E20;
+  
+}
+
+
+.content {
+  padding: 10 px;
+  display: none;
+  overflow: hidden;
+  background-color: #dcdcdc;
+   width: 80%;
+   margin-left: 4%;
+   margin-bottom: 2%;
+}         
+
 
         .float-left {
             float: left;
@@ -87,15 +113,15 @@ button {
 
 
 
-.collapsible {
+.minicollapsible {
   background-color: #dcdcdc;
   color: #444;
   cursor: pointer;
-  padding: 10px;
+  padding: 2px;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 5px;
    width: 80%;
    margin-left: 4%;
 	
@@ -104,14 +130,14 @@ button {
 }
 
 
-.content {
-  padding: 10 px;
+.minicontent {
+  padding: 2px;
   display: none;
   overflow: hidden;
   background-color: #dcdcdc;
    width: 80%;
-   margin-left: 4%;
-   margin-bottom: 2%;
+   margin-left: 1%;
+   margin-bottom: 1%;
 }         
 
 .galleryowlright{
