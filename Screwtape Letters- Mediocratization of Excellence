@@ -30,10 +30,10 @@
 	</div>		
 <div class="quotebox"> 
   	  <div class="content-to-copy">
-  <h3 id="myText">"" </h3></div>
-	  <h3>Book: </h3>
-      <h3>Author: </h3>
-      <h3>Theme(s): </h3>
+  <h3 id="myText">"What I want to fix your attention on is the vast, overall movement towards the discrediting, and finally the elimination, of every kind of human excellence — moral, cultural, social, or intellectual." </h3></div>
+	  <h3>Book: Screwtape Letters</h3>
+      <h3>Author: C.S Lewis</h3>
+      <h3>Theme(s): Power</h3>
       <button onclick="copyText()"><font size="5">Copy the Quote</font></button>
 </div>
 </div>
