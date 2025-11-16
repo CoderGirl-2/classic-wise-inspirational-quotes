@@ -163,7 +163,7 @@ button {
             padding: 10px;
             color: black;
 		   border: 10px solid #6A4E20;
-			margin-left: 5%
+			
         }      
     
 
@@ -187,7 +187,7 @@ button {
 	border: 5px outset #6A4E20;
 	width: 20%;
     height: 80%;
-	margin-top: 5%;
+	
 }   
 body {
            background-color: #c19f5c;
@@ -199,7 +199,7 @@ body {
             background-color: #dcdcdc;
             padding: 10px;
             color: black;
-         margin-top: 5%; 
+     
 		   border: 10px solid #6A4E20;
 			margin-left: 5%
         }      
