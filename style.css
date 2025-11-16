@@ -184,10 +184,10 @@ button {
 
 .image-text-container {
   display: flex;
-height:40%;
-	  flex-direction: column;
+	flex-direction: column;
 	border: 5px outset #6A4E20;
-}   body {
+}   
+body {
            background-color: #c19f5c;
         }
 
