@@ -157,7 +157,7 @@ button {
 
 
 .quotebox	{
-            width: 60%;
+            width: 70%;
             height: 100%;
             background-color: #dcdcdc;
             padding: 10px;
@@ -186,8 +186,8 @@ button {
   display: flex;
 	flex-direction: column;
 	border: 5px outset #6A4E20;
-	width: 40%;
-    height: 60%;
+	width: 20%;
+    height: 50%;
 }   
 body {
            background-color: #c19f5c;
