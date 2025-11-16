@@ -186,7 +186,7 @@ button {
   display: flex;
 	flex-direction: column;
 	border: 5px outset #6A4E20;
-	width: 60%;
+	width: 40%;
     height: 60%;
 }   
 body {
