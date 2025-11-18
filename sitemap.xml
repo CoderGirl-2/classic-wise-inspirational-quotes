@@ -1,22 +1,89 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
 <url>
-  <loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/</loc>
-  <lastmod>2025-10-23T12:36:38+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/</loc>
+<lastmod>2025-11-18T03:04:28+00:00</lastmod>
+<priority>1.00</priority>
 </url>
 <url>
-  <loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/home</loc>
-  <lastmod>2025-10-23T12:36:39+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/directory.html</loc>
+<lastmod>2025-11-18T03:04:28+00:00</lastmod>
+<priority>0.80</priority>
 </url>
-
-
+<url>
+<loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/Fahrenheit%20451-Building%20and%20Burning</loc>
+<lastmod>2025-11-18T03:04:28+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/Fahrenheit%20451-Leaving%20a%20Legacy</loc>
+<lastmod>2025-11-18T03:04:29+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/Fahrenheit%20451-Literary%20Quality</loc>
+<lastmod>2025-11-18T03:04:29+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/Fahrenheit%20451-Man%20doesn't%20give%20up</loc>
+<lastmod>2025-11-18T03:04:29+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/The%20Great%20Divorce-God%20doesn't%20need%20you</loc>
+<lastmod>2025-11-18T03:04:29+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/The%20Great%20Divorce-Leaning%20on%20God</loc>
+<lastmod>2025-11-18T03:04:29+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/The%20Great%20Divorce-The%20Size%20of%20Bad%20vs%20Good</loc>
+<lastmod>2025-11-18T03:04:29+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/The%20Great%20Divorce-Temporal%20Suffering</loc>
+<lastmod>2025-11-18T03:04:30+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/The%20Great%20Divorce-Thy%20will%20be%20done</loc>
+<lastmod>2025-11-18T03:04:30+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/Heart%20of%20Darkness-Idealism</loc>
+<lastmod>2025-11-18T03:04:30+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/Heart%20of%20Darkness-Reading%20as%20a%20Friend</loc>
+<lastmod>2025-11-18T03:04:30+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/Screwtape%20Letters-Difficulty%20of%20Perseverence</loc>
+<lastmod>2025-11-18T03:04:30+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/Screwtape%20Letters-Historical%20Point%20of%20View</loc>
+<lastmod>2025-11-18T03:04:30+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/Screwtape%20Proposes%20a%20Toast-Mediocratization%20of%20Education</loc>
+<lastmod>2025-11-18T03:04:31+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/Screwtape%20Proposes%20a%20Toast-Mediocratization%20of%20Excellence</loc>
+<lastmod>2025-11-18T03:04:31+00:00</lastmod>
+<priority>0.64</priority>
+</url>
 </urlset>
