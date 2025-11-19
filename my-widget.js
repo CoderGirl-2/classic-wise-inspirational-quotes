@@ -1,5 +1,4 @@
 
-		<script src="script.js"></script>
 
 class MySimpleWidget extends HTMLElement {
     constructor() {
@@ -11,23 +10,11 @@ class MySimpleWidget extends HTMLElement {
     connectedCallback() {
         // Define the widget's internal HTML and CSS here
         this.shadowRoot.innerHTML = `
-            <style>
-                /* Styles are contained to the widget */
-                .widget-container {
-                    border: 2px solid #a23992;
-                    padding: 12px;
-                    border-radius: 8px;
-                    background-color: #fce4ec;
-                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                    max-width: 300px;
-                }
-                h4 {
-                    color: #a23992;
-                    margin-top: 0;
-                    border-bottom: 1px solid #a23992;
-                    padding-bottom: 5px;
-                }
-            </style>
+        
+
+	
+		<script src="script.js"></script>
+		
             <div class="widget-container">
                   <h3>Quote Directory</h3>
 
