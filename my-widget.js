@@ -10,7 +10,23 @@ class MySimpleWidget extends HTMLElement {
     connectedCallback() {
         // Define the widget's internal HTML and CSS here
         this.shadowRoot.innerHTML = `
-        
+
+		toggleContent() {
+    const header = this.shadowRoot.querySelector('.header');
+    const content = this.shadowRoot.querySelector('.content');
+
+    // Toggle a class on the header (similar to your "active")
+    header.classList.toggle("active");
+
+    // Toggle display property on the content
+    if (content.style.display === "block") {
+        content.style.display = "none";
+        header.setAttribute('aria-expanded', 'false');
+    } else {
+        content.style.display = "block";
+        header.setAttribute('aria-expanded', 'true');
+    }
+}
 
 		
             <div class="widget-container">
