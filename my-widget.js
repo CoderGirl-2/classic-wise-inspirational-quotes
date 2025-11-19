@@ -80,7 +80,7 @@ class MySimpleWidget extends HTMLElement {
 
 // Register the custom HTML tag you will use
 customElements.define('my-simple-widget', MySimpleWidget);
-}
+
 
 // Register the custom HTML tag you will use
 customElements.define('my-simple-widget', MySimpleWidget);
