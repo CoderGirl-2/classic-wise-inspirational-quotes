@@ -1,3 +1,6 @@
+
+		<script src="script.js"></script>
+
 class MySimpleWidget extends HTMLElement {
     constructor() {
         super();
