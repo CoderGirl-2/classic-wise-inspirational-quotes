@@ -192,7 +192,7 @@ button {
 .quotes-container {
   display: flex;
 	flex-direction: column;
-	width: 60%;
+	width: 100%;
     height: 90%;
 	
 }   
