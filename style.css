@@ -187,8 +187,17 @@ button {
 	border: 5px outset #6A4E20;
 	width: 30%;
     height: 90%;
+}   
+
+.quotes-container {
+  display: flex;
+	flex-direction: column;
+	width: 60%;
+    height: 90%;
 	
 }   
+
+
 body {
            background-color: #c19f5c;
         }
