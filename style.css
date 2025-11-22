@@ -199,14 +199,13 @@ body {
         }
 
 .quotebox	{
-            width: 80%;
+            width: 85%;
             height: 100%;
             background-color: #dcdcdc;
             padding: 10px;
             color: black;
-     
 		   border: 10px solid #6A4E20;
-			margin-left: 5%
+			margin-left: 1%
         }      
     
 .gallery {
