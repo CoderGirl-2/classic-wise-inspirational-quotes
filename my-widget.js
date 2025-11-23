@@ -1,4 +1,4 @@
-class MyWidget extends HTMLElement {
+class my-widget extends HTMLElement {
   connectedCallback() {
     // We simply inject HTML directly into the tag
     this.innerHTML = `
