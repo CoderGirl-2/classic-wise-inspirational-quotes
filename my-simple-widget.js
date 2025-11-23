@@ -3,7 +3,16 @@ class MyWidget extends HTMLElement {
     // We simply inject HTML directly into the tag
     this.innerHTML = `
 <style>   
-    quotelink{ 
+   .widget-box {
+          border: 2px solid #333;
+          padding: 20px;
+          background-color: #f4f4f4;
+          width: 40%;
+          border-radius: 10px;
+          font-family: sans-serif;
+        }
+	
+	.quotelink{ 
        background-color: #dcdcdc;
   color: #444;
   cursor: pointer;
@@ -18,7 +27,9 @@ class MyWidget extends HTMLElement {
 	border: 5px outset #6A4E20;
   }
   </style>
-      <div>
+      
+	  
+	  <div class="widget-box">
         <h3>My Links</h3>
         
         <button class="quotelink"onclick="window.location.href='https://google.com'">Go to Google</button>
