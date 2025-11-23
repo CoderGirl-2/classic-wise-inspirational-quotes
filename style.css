@@ -170,7 +170,7 @@ button {
 .image-text-container {
   display: flex;
 	flex-direction: column;
-	width: 40%;
+	width: 45%;
     height: 100%;
 }   
 
@@ -178,7 +178,7 @@ button {
   display: flex;
 	flex-direction: column;
 	margin-left: 10%;
-	width: 40%;
+	width: 45%;
 	
 }   
 
