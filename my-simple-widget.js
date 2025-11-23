@@ -12,7 +12,7 @@ class MyWidget extends HTMLElement {
         }
 	
 	.quotelink{ 
-   background-color:#6A4E20; 
+   background-color:#946d2e; 
   color: #000000;
   text-align: center;
   outline: none;
