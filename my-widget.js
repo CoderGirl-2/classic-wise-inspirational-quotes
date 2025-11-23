@@ -1,4 +1,4 @@
-class MyWidget extends HTMLElement {
+class my-widget extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
