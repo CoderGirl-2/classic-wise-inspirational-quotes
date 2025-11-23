@@ -1,4 +1,4 @@
-class widget extends HTMLElement {
+class MyWidget extends HTMLElement {
   connectedCallback() {
     // We simply inject HTML directly into the tag
     this.innerHTML = `
@@ -18,4 +18,4 @@ class widget extends HTMLElement {
 }
 
 // Register the tag
-customElements.define('my-widget', MyWidget);
+customElements.define('my-simple-widget', MyWidget);
