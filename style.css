@@ -170,8 +170,7 @@ button {
 .image-text-container {
   display: flex;
 	flex-direction: column;
-	border: 5px outset #6A4E20;
-	width: 85%;
+	width: 100%;
     height: 100%;
 }   
 
