@@ -1,23 +1,22 @@
-class LinkWidget extends HTMLElement {
+class MyWidget extends HTMLElement {
   constructor() {
     super();
-    // This ensures the widget styles don't clash with the rest of your site
     this.attachShadow({ mode: 'open' });
   }
 
   connectedCallback() {
     // CONFIGURATION: Edit your links here
     const links = [
-      { name: "Google", url: "https://google.com", color: "#4285F4" },
-      { name: "YouTube", url: "https://youtube.com", color: "#FF0000" },
-      { name: "My Blog", url: "/blog", color: "#2ecc71" }
+      { name: "Home", url: "/", color: "#333" },
+      { name: "Contact", url: "/contact", color: "#007bff" },
+      { name: "External Site", url: "https://example.com", color: "#e74c3c" }
     ];
 
     this.render(links);
   }
 
   render(links) {
-    // 1. Define the CSS for the widget
+    // 1. Define CSS
     const style = `
       <style>
         .widget-container {
@@ -25,83 +24,61 @@ class LinkWidget extends HTMLElement {
           bottom: 20px;
           right: 20px;
           z-index: 9999;
-          font-family: sans-serif;
           display: flex;
-          flex-direction: column-reverse; /* Expands upwards */
+          flex-direction: column-reverse;
           align-items: flex-end;
           gap: 10px;
+          font-family: sans-serif;
         }
 
-        /* The Main Toggle Button */
         .toggle-btn {
-          width: 60px;
-          height: 60px;
+          width: 50px;
+          height: 50px;
           border-radius: 50%;
-          background-color: #333;
+          background-color: #222;
           color: white;
           border: none;
           font-size: 24px;
           cursor: pointer;
-          box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-          transition: transform 0.3s ease;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+          box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+          transition: transform 0.3s;
         }
 
-        .toggle-btn:hover {
-          transform: scale(1.1);
-        }
+        .toggle-btn:hover { transform: scale(1.1); }
+        .toggle-btn.open { transform: rotate(45deg); background-color: #444; }
 
-        .toggle-btn.open {
-          transform: rotate(45deg);
-          background-color: #555;
-        }
-
-        /* The Link Buttons Container */
         .links-list {
-          display: none; /* Hidden by default */
+          display: none;
           flex-direction: column;
-          gap: 10px;
+          gap: 8px;
           align-items: flex-end;
         }
+        
+        .links-list.visible { display: flex; }
 
-        .links-list.visible {
-          display: flex;
-        }
-
-        /* Individual Link Buttons */
         .link-btn {
           text-decoration: none;
           color: white;
-          padding: 10px 20px;
-          border-radius: 25px;
-          box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+          padding: 8px 16px;
+          border-radius: 20px;
+          font-size: 14px;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.2);
           transition: transform 0.2s;
-          opacity: 0;
-          transform: translateY(10px);
-          animation: slideIn 0.3s forwards;
+          white-space: nowrap;
         }
 
-        .link-btn:hover {
-          transform: translateX(-5px);
-        }
-
-        /* Animation for buttons appearing */
-        @keyframes slideIn {
-          to { opacity: 1; transform: translateY(0); }
-        }
+        .link-btn:hover { transform: translateX(-3px); }
       </style>
     `;
 
-    // 2. Create the HTML structure
+    // 2. Create HTML
     const linkButtons = links.map(link => 
-      `<a href="${link.url}" class="link-btn" style="background-color: ${link.color}" target="_blank">
+      `<a href="${link.url}" class="link-btn" style="background-color: ${link.color}">
         ${link.name}
       </a>`
     ).join('');
 
-    // 3. Inject HTML and CSS into the Shadow DOM
+    // 3. Inject into Shadow DOM
     this.shadowRoot.innerHTML = `
       ${style}
       <div class="widget-container">
@@ -112,7 +89,7 @@ class LinkWidget extends HTMLElement {
       </div>
     `;
 
-    // 4. Add Event Listener (Click logic)
+    // 4. Add Click Logic
     this.addInteractions();
   }
 
@@ -121,18 +98,11 @@ class LinkWidget extends HTMLElement {
     const list = this.shadowRoot.getElementById('list');
 
     toggleBtn.addEventListener('click', () => {
-      const isVisible = list.classList.contains('visible');
-      
-      if (isVisible) {
-        list.classList.remove('visible');
-        toggleBtn.classList.remove('open');
-      } else {
-        list.classList.add('visible');
-        toggleBtn.classList.add('open');
-      }
+      list.classList.toggle('visible');
+      toggleBtn.classList.toggle('open');
     });
   }
 }
 
-// Define the custom element
-customElements.define('link-widget', LinkWidget);
+// REGISTER THE WIDGET NAME HERE
+customElements.define('my-widget', MyWidget);
