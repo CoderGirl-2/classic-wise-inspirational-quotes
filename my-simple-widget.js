@@ -12,7 +12,7 @@ class MyWidget extends HTMLElement {
         }
 	
 	.quotelink{ 
-       background-color: #dcdcdc;
+   background-color:#6A4E20; 
   color: #444;
   border: none;
   text-align: left;
@@ -29,7 +29,7 @@ class MyWidget extends HTMLElement {
 	  <div class="widget-box">
         <h3>My Links</h3>
         
-        <button class="quotelink"onclick="window.location.href='https://google.com'">Go to Google</button>
+        <button class="quotelink"onclick="window.location.href='https://google.com'"><b>Go to Google</b></button>
         
       
       </div>
