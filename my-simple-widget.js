@@ -4,11 +4,12 @@ class MyWidget extends HTMLElement {
     this.innerHTML = `
 <style>   
    .widget-box {
-          border: 2px solid #000000;
+           border: 5px solid #6A4E20;
           background-color: #dcdcdc;
           width: 100%;
           border-radius: 10px;
           font-family: sans-serif;
+		  
         }
 	
 	.quotelink{ 
@@ -20,7 +21,7 @@ class MyWidget extends HTMLElement {
 	height: 40%;
    margin-left: 1%;
 	 margin-right: 1%;
-	border: 5px outset #000000;
+	 border: 5px solid #6A4E20;
   }
   </style>
       
