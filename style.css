@@ -70,20 +70,6 @@
         }
 
 
-
-
-button {
-    background-color:#c19f5c; 
-	  color:#000000;
-    width: 40%; /* Set the width */
-    font-family: 'Georgia';
-  	margin-left:26%;
-    margin-right:26%;
-    margin-bottom:2%;
-	border: 5px outset #6A4E20;
-
-         }
-
 .funinfoleft {
     background-color:#dcdcdc; 
 	  color:#000000;
@@ -155,7 +141,7 @@ button {
 
 
 button {
-    background-color:#6A4E20; 
+    background-color:#c19f5c; 
 	  color:#000000;
     width: 40%; /* Set the width */
     height: 100px;
