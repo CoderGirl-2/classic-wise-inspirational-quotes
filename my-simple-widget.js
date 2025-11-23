@@ -13,8 +13,8 @@ class MyWidget extends HTMLElement {
 	
 	.quotelink{ 
    background-color:#6A4E20; 
-  color: #black;
-  border: none;
+  color: #000000;
+  border: center;
   text-align: left;
   outline: none;
    width: 95%;
