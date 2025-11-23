@@ -4,7 +4,7 @@ class MyWidget extends HTMLElement {
     this.innerHTML = `
 <style>   
    .widget-box {
-          border: 2px solid #333;
+          border: 2px solid #000000;
           background-color: #dcdcdc;
           width: 100%;
           border-radius: 10px;
@@ -20,7 +20,7 @@ class MyWidget extends HTMLElement {
 	height: 40%;
    margin-left: 1%;
 	 margin-right: 1%;
-	border: 5px outset #6A4E20;
+	border: 5px outset #000000;
   }
   </style>
       
