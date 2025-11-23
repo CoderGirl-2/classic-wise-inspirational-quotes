@@ -5,8 +5,8 @@ class MyWidget extends HTMLElement {
 <style>   
    .widget-box {
           border: 2px solid #333;
-          background-color: #f4f4f4;
-          width: 90%;
+          background-color: #dcdcdc;
+          width: 100%;
           border-radius: 10px;
           font-family: sans-serif;
         }
