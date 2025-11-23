@@ -31,7 +31,7 @@ class MySimpleWidget extends HTMLElement {
             </style>
             
 
-		   <a href="https://sentry.io/answers/">
+		   <a class="quotelink" href="https://sentry.io/answers/">
   <button>Answers by Sentry</button>
 </a>
 
