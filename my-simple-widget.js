@@ -7,7 +7,7 @@ class MyWidget extends HTMLElement {
           border: 2px solid #333;
           padding: 20px;
           background-color: #f4f4f4;
-          width: 40%;
+          width: 100%;
           border-radius: 10px;
           font-family: sans-serif;
         }
