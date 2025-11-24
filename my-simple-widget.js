@@ -27,7 +27,7 @@ class MyWidget extends HTMLElement {
       
 	  
 	  <div class="widget-box">
-        <h3>My Links</h3>
+        <h3>Directory of Quotes</h3>
         
         <button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/Brave%20New%20World'"><b>Brave New World</b></button>
          <button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/Fahrenheit 451'"><b>Fahrenheit 451</b></button>
