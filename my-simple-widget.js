@@ -31,7 +31,9 @@ class MyWidget extends HTMLElement {
         
         <button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/Brave%20New%20World'"><b>Brave New World</b></button>
          <button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/Fahrenheit 451'"><b>Fahrenheit 451</b></button>
+		<button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/Heart of Darkness'"><b>Heart of Darkness</b></button>
       
+	
       </div>
     `;
   }
