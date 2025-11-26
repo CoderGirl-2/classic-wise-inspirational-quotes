@@ -1,7 +1,17 @@
 
-function copyText() {
-  var textToCopy = document.getElementById(textid).innerText;
-  navigator.clipboard.writeText(textToCopy)
+
+
+function copyText(buttonElement) {
+    var quotebox = buttonElement.closest('.quotebox');
+    
+    var textElement = quotebox.querySelector('.content-to-copy h3');
+    
+    if (textElement) {
+        var textToCopy = textElement.innerText;
+        
+        navigator.clipboard.writeText(textToCopy)
+            
+    }
 }
 
 
