@@ -116,13 +116,13 @@
 
 .galleryowlright{
 	display: flex;
-	margin-right: 5%;
+	margin-right: 2%;
 	margin-top: 2%;
 }
 
 .galleryowlleft{
 	display: flex;
-	margin-left: 5%;
+	margin-left: 2%;
 	margin-top: 2%;
 }
 
