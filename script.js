@@ -1,6 +1,6 @@
 
 function copyText() {
-  var textToCopy = document.getElementById("myText").innerText;
+  var textToCopy = document.getElementById(textid).innerText;
   navigator.clipboard.writeText(textToCopy)
 }
 
