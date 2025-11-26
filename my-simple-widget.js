@@ -17,7 +17,7 @@ class MyWidget extends HTMLElement {
   color: #000000;
   text-align: center;
   outline: none;
-   width: 115%;
+   width: 95%;
 	height: 40%;
    margin-left: 1%;
 	 margin-right: 1%;
