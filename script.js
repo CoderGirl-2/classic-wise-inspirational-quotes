@@ -4,6 +4,13 @@ function copyText() {
   navigator.clipboard.writeText(textToCopy)
 }
 
+
+function copyText() {
+  const textToCopy = document.getElementById("myText1").innerText;
+  navigator.clipboard.writeText(textToCopy)
+}
+
+
 function copyText() {
   const textToCopy = document.getElementById("myText2").innerText;
   navigator.clipboard.writeText(textToCopy)
