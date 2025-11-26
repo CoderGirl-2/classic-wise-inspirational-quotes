@@ -9,6 +9,7 @@ class MyWidget extends HTMLElement {
           width: 120%;
           border-radius: 10px;
           font-family: sans-serif;
+		  margin-right: 3%;
 		  
         }
 	
