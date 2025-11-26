@@ -38,7 +38,7 @@
   text-align: left;
   outline: none;
   font-size: 15px;
-   width: 60%;
+   width: 100%;
 	border: 5px outset #6A4E20;
   
 }
@@ -49,7 +49,7 @@
   display: none;
   overflow: hidden;
   background-color: #dcdcdc;
-   width: 60%;
+   width: 100%;
    margin-bottom: 2%;
 }         
 
