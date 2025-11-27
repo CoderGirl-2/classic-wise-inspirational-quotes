@@ -4,13 +4,38 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-<url>
-  <loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/</loc>
-  <lastmod>2025-11-27T03:32:19+00:00</lastmod>
-</url>
-
-
+  <url>
+    <loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/</loc>
+    <lastmod>2025-11-27T03:32:19+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/A%20Grief%20Observed/</loc>
+  </url>
+  <url>
+    <loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/Brave%20New%20World/</loc>
+  </url>
+  <url>
+    <loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/Fahrenheit%20451/</loc>
+  </url>
+  <url>
+    <loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/Heart%20of%20Darkness/</loc>
+  </url>
+  <url>
+    <loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/Screwtape%20Letters/</loc>
+  </url>
+  <url>
+    <loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/Screwtape%20Proposes%20a%20Toast/</loc>
+  </url>
+  <url>
+    <loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/The%20Abolition%20of%20Man/</loc>
+  </url>
+  <url>
+    <loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/The%20Great%20Divorce/</loc>
+  </url>
+  <url>
+    <loc>https://classic-wisdom-and-inspiration-quotes.vercel.app/The%20Gulag%20Archipelago/</loc>
+  </url>
 </urlset>
