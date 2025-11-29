@@ -33,17 +33,3 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
-var coll = document.getElementsByClassName("minicollapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var minicontent = this.nextElementSibling;
-    if (minicontent.style.display === "block") {
-      minicontent.style.display = "none";
-    } else {
-      minicontent.style.display = "block";
-    }
-  });
-}
