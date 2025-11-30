@@ -41,7 +41,7 @@ class MyWidget extends HTMLElement {
 		<button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/The Great Divorce'"><b>The Great Divorce, by C.S Lewis</b></button>
 		<button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/The Gulag Archipelago'"><b>The Gulag Archipelago, by Alexander Solzhenitsyn</b></button>
 		<button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/The Republic'"><b>The Republic, by Plato</b></button>
-		<button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/Work and Days'"><b>Work and Days, by Hesiod</b></button>
+		<button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/Works and Days'"><b>Works and Days, by Hesiod</b></button>
 		
       </div>
     `;
