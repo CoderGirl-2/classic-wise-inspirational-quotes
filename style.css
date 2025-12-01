@@ -1,8 +1,5 @@
-    body {
-           background-color: #c19f5c;
-        }
-        
 
+        
        .basic-box1 {
             width: 35%;
             height: 100%;
@@ -17,13 +14,6 @@
 		   margin-left: 5%;
         }                                               
 
-
-        .main-container {
-            max-width: 40%;
-            padding: 2%;
-         
-    
-        }
 
         h1, h2, h3, h4, p{
             text-align: center;
@@ -58,18 +48,7 @@ margin-left: 26%;
 }         
 
 
-        .float-left {
-            float: left;
-            margin-right: 1%;
-        }
-
-        .float-right {
-            float: right;
-            margin-left: 1%;
-        }
-        .double-spaced {
-            line-height: 2;
-        }
+   
 
 
 .funinfoleft {
@@ -179,10 +158,6 @@ body {
         }
 
    
-    
-.gallery {
-  display: flex;    
-}
 
 
 
@@ -191,12 +166,9 @@ body {
 	gap: 1%;
 }
 
-.directoryandcollapsible {
-	display: flex;
-	gap: 1%;
-}
+
 .collapsibles{
 	margin-bottom: 1%;
 	width: 45%;
-	margin-left: 40%;
+	margin-left: 45%;
 }
