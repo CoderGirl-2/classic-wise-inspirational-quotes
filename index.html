@@ -18,14 +18,6 @@
   "@type": "Article",
   "headline": "Classic Quote of the Day",
   
-  "articleBody": [
-    "Daily Book",
-    "Daily Author:",
-    "Updates tomorrow at 5:30 A.M, CDT",
-    "About the Book",
-    "About the Author",
-    "About the Theme",
-	"Related Quotes",
     "Why Classic Books?",
     "How can I study this further?",
 
@@ -57,10 +49,94 @@
 
 	  
    <div class="basic-box1">  
-     <h1> Classic Quote of the Day </h1>
-      <p>November 27, 2025</p>
-  <div class="content-to-copy">
-  <p id="myText"><b>"What glitters, lives but for the moment; what has real worth, survives for all posterity."</b></p>
+     <style>   
+   .widget-box {
+           border: 5px solid #6A4E20;
+          background-color: #dcdcdc;
+          width: 110%;
+          border-radius: 10px;
+          font-family: sans-serif;
+		  margin-right: 3%;
+		  
+        }
+	
+	.quotelink{ 
+   background-color:#c19f5c; 
+  color: #000000;
+  text-align: center;
+  outline: none;
+   width: 95%;
+	height: 40%;
+   margin-left: 1%;
+	 margin-right: 1%;
+	 border: 5px solid #6A4E20;
+  }
+  </style>
+      
+	  
+	  <div class="widget-box">
+		 <style>
+		 .widget-box {
+           border: 5px solid #6A4E20;
+          background-color: #dcdcdc;
+          width: 110%;
+          border-radius: 10px;
+          font-family: sans-serif;
+		  margin-right: 3%;
+		  
+        }
+	
+	.quotelink{ 
+   background-color:#c19f5c; 
+  color: #000000;
+  text-align: center;
+  outline: none;
+   width: 95%;
+	height: 40%;
+   margin-left: 1%;
+	 margin-right: 1%;
+	 border: 5px solid #6A4E20;
+  }
+			 	 
+		 </style>  
+		  <script>
+			  function filterList() {
+  // Get the input value and convert to uppercase for case-insensitive search
+  var input = document.getElementById("searchInput");
+  var filter = input.value.toUpperCase();
+
+  // Get the unordered list and its list items
+  var ul = document.getElementById("myList");
+  var li = ul.getElementsByTagName("li");
+
+  // Loop through all list items and hide those that don't match the search query
+  for (var i = 0; i < li.length; i++) {
+    var textValue = li[i].textContent || li[i].innerText; // Get the text content of the list item
+    if (textValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = ""; // Show the list item
+    } else {
+      li[i].style.display = "none"; // Hide the list item
+    }
+  }
+}
+		  </script>
+
+        <h3>Directory of Quotes</h3>
+        <button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/A Grief Observed'"><b>A Grief Observed, by C.S Lewis</b></button>
+        <button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/Brave%20New%20World'"><b>Brave New World, by Aldous Huxley</b></button>
+        <button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/Crime and Punishment'"><b>Crime and Punishment, by Fyodor Dostoevsky</b></button>
+		 <button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/Fahrenheit 451'"><b>Fahrenheit 451, by Ray Bradbury</b></button>
+		<button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/Heart of Darkness'"><b>Heart of Darkness, by Joseph Conrad</b></button>
+		<button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/Screwtape Letters'"><b>Screwtape Letters, by C.S Lewis</b></button>
+		<button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/Screwtape Proposes a Toast'"><b>Screwtape Proposes a Toast, by C.S 
+	Lewis</b></button>
+     	<button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/The Abolition of Man'"><b>The Abolition of Man, by C.S Lewis</b></button>
+		<button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/The Great Divorce'"><b>The Great Divorce, by C.S Lewis</b></button>
+		<button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/The Gulag Archipelago'"><b>The Gulag Archipelago, by Alexander Solzhenitsyn</b></button>
+		<button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/The Republic'"><b>The Republic, by Plato</b></button>
+		<button class="quotelink"onclick="window.location.href='https://classic-wisdom-and-inspiration-quotes.vercel.app/Works and Days'"><b>Works and Days, by Hesiod</b></button>
+		
+      </div>
      </div>
      
 	   
