@@ -162,7 +162,7 @@ body {
 .gallery{
 	display: flex;
 	gap: 1%;
-	max-height: 50%;
+	max-height: 25%;
 }
 
 
