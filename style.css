@@ -165,7 +165,7 @@ body {
 .gallery{
 	display: flex;
 	gap: 1%;
-	height: 25%;
+	height: 100%%;
 }
 
 
