@@ -17,6 +17,20 @@ function copyText(buttonElement) {
 
 
 
+function copyText(buttonElement) {
+    var quotebox = buttonElement.closest('.basic-box1');
+    
+    var textElement = quotebox.querySelector('.content-to-copy h3');
+    
+    if (textElement) {
+        var textToCopy = textElement.innerText;
+        
+        navigator.clipboard.writeText(textToCopy)
+            
+    }
+}
+
+
 
 var coll = document.getElementsByClassName("collapsible");
 var i;
