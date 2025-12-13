@@ -20,7 +20,7 @@ function copyText(buttonElement) {
 function copyText(buttonElement) {
     var quotebox = buttonElement.closest('.basic-box1');
     
-    var textElement = quotebox.querySelector('.content-to-copy h3');
+    var textElement = quotebox.querySelector('.content-to-copy p');
     
     if (textElement) {
         var textToCopy = textElement.innerText;
