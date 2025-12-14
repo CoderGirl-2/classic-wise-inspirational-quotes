@@ -22,6 +22,7 @@ html, body {
             padding: 10px;
             color: black;
          margin-top: 1%; 
+	   margin-left: 5%; 
 		   border: 10px solid #6A4E20;
 		 overflow-y: auto;
         }     
