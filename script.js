@@ -2,7 +2,7 @@
 
 
 function copyText(buttonElement) {
-    var quotebox = buttonElement.closest(class='quotebox');
+    var quotebox = buttonElement.closest('.quotebox');
     
     var textElement = quotebox.querySelector('.content-to-copy h3');
     
