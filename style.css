@@ -14,7 +14,17 @@ html, body {
 		   border: 10px solid #6A4E20;
 		 overflow-y: auto;
         }                                               
-
+   .info {
+            width: 65%;
+            max-height: 80%;
+            border: 2px solid #000;
+            background-color: #dcdcdc;
+            padding: 10px;
+            color: black;
+         margin-top: 1%; 
+		   border: 10px solid #6A4E20;
+		 overflow-y: auto;
+        }     
 
         h1, h2, h3, h4, p{
             text-align: center;
