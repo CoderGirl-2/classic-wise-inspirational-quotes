@@ -1,41 +1,15 @@
-
-
-
-function copyText(buttonElement, type) {
-    let parentSelector;
-    let contentSelector;
-
-    // 1. Determine the appropriate selectors based on the 'type' argument
-    if (type === 'quotebox') {
-        parentSelector = '.quotebox';
-        contentSelector = '.content-to-copy h3'; // Targets <h3> inside .content-to-copy
-    } else if (type === 'basic-box') {
-        parentSelector = '.basic-box1';
-        contentSelector = '.content-to-copy p';  // Targets <p> inside .content-to-copy
-    } else {
-        // If an invalid type is passed, the function stops.
-        return; 
-    }
-
-    // 2. Find the closest parent element (quotebox or basic-box1)
-    var container = buttonElement.closest(parentSelector);
+function copyText(buttonElement) {
+    var quotebox = buttonElement.closest('.quotebox');
     
-    if (!container) {
-        return; // Stop if the parent container is not found
-    }
-
-    // 3. Find the specific text element (h3 or p) within the container
-    var textElement = container.querySelector(contentSelector);
+    var textElement = quotebox.querySelector('.content-to-copy h3');
     
     if (textElement) {
         var textToCopy = textElement.innerText;
         
-        // 4. Use the Clipboard API to copy the text
-        // (Note: This is an asynchronous operation)
-        navigator.clipboard.writeText(textToCopy); 
+        navigator.clipboard.writeText(textToCopy)
+            
     }
 }
-
 
 
 
