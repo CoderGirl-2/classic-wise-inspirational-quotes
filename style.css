@@ -16,7 +16,7 @@ html, body {
         }                                               
    .info {
             width: 95%;
-            max-height: 100%;
+           
             border: 2px solid #000;
             background-color: #dcdcdc;
             padding: 10px;
@@ -24,7 +24,7 @@ html, body {
          margin-top: 1%; 
 	   margin-left: 5%; 
 		   border: 10px solid #6A4E20;
-		 overflow-y: auto;
+		
         }     
 
         h1, h2, h3, h4, p{
